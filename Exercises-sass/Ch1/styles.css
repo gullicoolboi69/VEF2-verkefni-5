@@ -1,0 +1,23 @@
+body {
+  font-family: comic;
+}
+
+h1, h2 {
+    color: red;
+}
+p {
+	color: blue;
+}
+header {
+  background-color: lighten(grey, 70%);
+  border: 1px solid darken(green, 20%);
+}
+.mypara {
+    font-size: 2em;
+    border: 4px solid green;
+    padding: 2em 4em;
+}
+
+.mypara:after {
+    content: " þetta er textastrengur æöð";
+}

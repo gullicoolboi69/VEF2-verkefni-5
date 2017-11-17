@@ -1,0 +1,40 @@
+h1, h2 {
+    color: purple;
+}
+
+.mypara {
+    font-size: 20px;
+    border: 2px solid green;
+    padding: 25px 25px 25px 25px;
+}
+
+.mypara:after {
+    content: " with an appended string";
+}
+
+body {
+    font-family: Helvetica;
+    }
+    p.mypara {
+        font-family: "Courier New";
+    }
+}
+
+.mypara {
+    color: orange;
+}
+p {
+        color: red;
+        font-size: 30px
+}
+.list1 {
+	font-size: 18px;
+	border: 4px dotted blue;
+	padding: 35px 35px 35px 35px
+}
+li {
+	color: lime;
+}
+footer {
+    color: #3264AF;
+}
